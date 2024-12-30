@@ -1,0 +1,29 @@
+{
+  "name": "remotion-renderer-server-fc",
+  "version": "1.0.0",
+  "description": "my remotion renderer server deployed on alibaba cloud function compute",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "@remotion/google-fonts": "4.0.243",
+    "@remotion/bundler": "4.0.243",
+    "@remotion/renderer": "4.0.243",
+    "@remotion/zod-types": "4.0.243",
+    "ali-oss": "^6.17.1",
+    "chrome-aws-lambda": "^9.1.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "remotion": "4.0.243",
+    "zod": "3.22.3"
+  },
+  "devDependencies": {
+    "@types/react": "19.0.0",
+    "typescript": "5.3.3"
+  }
+}
