@@ -6,8 +6,8 @@ type Props = {
   root: {
     en: string;
     cn: string;
-    soundEn: string;
-    soundCn: string;
+    soundEN: string;
+    soundCN: string;
   };
 }; 
 
@@ -52,10 +52,10 @@ export const RootElement: React.FC<Props> = ({ root }) => {
            </div>
          
            <Sequence from={10}>
-              <Audio src={getAudioSource(root.soundEn)} />
+              <Audio src={getAudioSource(root.soundEN)} />
            </Sequence>
            <Sequence from={40}>
-              <Audio src={getAudioSource(root.soundCn)} />
+              <Audio src={getAudioSource(root.soundCN)} />
            </Sequence>
     </AbsoluteFill>
   );

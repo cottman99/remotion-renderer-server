@@ -6,15 +6,15 @@ type Props = {
   root: {
     en: string;
     cn: string;
-    soundEn: string;
-    soundCn: string;
+    soundEN: string;
+    soundCN: string;
   };
   word: {
     en: string;
     phonetic: string;
     cn: string;
-    soundEn: string;
-    soundCn: string;
+    soundEN: string;
+    soundCN: string;
   };
   index: number; // 单词的索引，用于控制出现顺序
 };
@@ -72,10 +72,10 @@ export const WordElement: React.FC<Props> = ({root, word, index }) => {
         </div>
       </div>
       <Sequence from={startFrame + 5}>
-        <Audio src={getAudioSource(word.soundEn)} />
+        <Audio src={getAudioSource(word.soundEN)} />
       </Sequence>
       <Sequence from={startFrame + 45}>
-        <Audio src={getAudioSource(word.soundCn)} />
+        <Audio src={getAudioSource(word.soundCN)} />
       </Sequence>
    </AbsoluteFill>
   );

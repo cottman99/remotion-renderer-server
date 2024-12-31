@@ -12,15 +12,15 @@ type Props = {
   root: {
     en: string;
     cn: string;
-    soundEn: string;
-    soundCn: string;
+    soundEN: string;
+    soundCN: string;
   };
   words: {
     en: string;
     phonetic: string;
     cn: string;
-    soundEn: string;
-    soundCn: string;
+    soundEN: string;
+    soundCN: string;
   }[];
 };
 export const MyComposition: React.FC<Props> = ({ bgImg, title, root, words }) => {

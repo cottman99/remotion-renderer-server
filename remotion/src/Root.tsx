@@ -10,51 +10,51 @@ export const RemotionRoot: React.FC = () => {
     root: {
         en: 'test',
         cn: '测试词根',
-        soundEn: `https://lf26-appstore-sign.oceancloudapi.com/ocean-cloud-tos/VolcanoUserVoice/speech_7426720361733062665_bd1c3402-f3c0-428d-9c61-4cc42763d0bc.mp3?lk3s=da27ec82&x-expires=1735575632&x-signature=zdJIqlBw6MrBXgsEHpMR7gNpn%2Bg%3D`, // 使用有道字典语音api
-        soundCn: `https://lf26-appstore-sign.oceancloudapi.com/ocean-cloud-tos/VolcanoUserVoice/speech_7426720361733062665_bd1c3402-f3c0-428d-9c61-4cc42763d0bc.mp3?lk3s=da27ec82&x-expires=1735575632&x-signature=zdJIqlBw6MrBXgsEHpMR7gNpn%2Bg%3D`, // 使用有道字典语音api
+        soundEN: `https://lf26-appstore-sign.oceancloudapi.com/ocean-cloud-tos/VolcanoUserVoice/speech_7426720361733062665_bd1c3402-f3c0-428d-9c61-4cc42763d0bc.mp3?lk3s=da27ec82&x-expires=1735575632&x-signature=zdJIqlBw6MrBXgsEHpMR7gNpn%2Bg%3D`, // 使用有道字典语音api
+        soundCN: `https://lf26-appstore-sign.oceancloudapi.com/ocean-cloud-tos/VolcanoUserVoice/speech_7426720361733062665_bd1c3402-f3c0-428d-9c61-4cc42763d0bc.mp3?lk3s=da27ec82&x-expires=1735575632&x-signature=zdJIqlBw6MrBXgsEHpMR7gNpn%2Bg%3D`, // 使用有道字典语音api
     },
     words: [
         {
             en: 'testWordt1',
             phonetic: '/test1/',
             cn: '测试单词1',
-            soundEn: `https://lf26-appstore-sign.oceancloudapi.com/ocean-cloud-tos/VolcanoUserVoice/speech_7426720361733062665_bd1c3402-f3c0-428d-9c61-4cc42763d0bc.mp3?lk3s=da27ec82&x-expires=1735575632&x-signature=zdJIqlBw6MrBXgsEHpMR7gNpn%2Bg%3D`, // 使用有道字典语音api
-            soundCn: `https://lf26-appstore-sign.oceancloudapi.com/ocean-cloud-tos/VolcanoUserVoice/speech_7426720361733062665_bd1c3402-f3c0-428d-9c61-4cc42763d0bc.mp3?lk3s=da27ec82&x-expires=1735575632&x-signature=zdJIqlBw6MrBXgsEHpMR7gNpn%2Bg%3D`, // 使用有道字典语音api
+            soundEN: `https://lf26-appstore-sign.oceancloudapi.com/ocean-cloud-tos/VolcanoUserVoice/speech_7426720361733062665_bd1c3402-f3c0-428d-9c61-4cc42763d0bc.mp3?lk3s=da27ec82&x-expires=1735575632&x-signature=zdJIqlBw6MrBXgsEHpMR7gNpn%2Bg%3D`, // 使用有道字典语音api
+            soundCN: `https://lf26-appstore-sign.oceancloudapi.com/ocean-cloud-tos/VolcanoUserVoice/speech_7426720361733062665_bd1c3402-f3c0-428d-9c61-4cc42763d0bc.mp3?lk3s=da27ec82&x-expires=1735575632&x-signature=zdJIqlBw6MrBXgsEHpMR7gNpn%2Bg%3D`, // 使用有道字典语音api
         },
          {
             en: 'testWord2',
             phonetic: '/test2/',
             cn: '测试单词2',
-            soundEn: `https://lf26-appstore-sign.oceancloudapi.com/ocean-cloud-tos/VolcanoUserVoice/speech_7426720361733062665_bd1c3402-f3c0-428d-9c61-4cc42763d0bc.mp3?lk3s=da27ec82&x-expires=1735575632&x-signature=zdJIqlBw6MrBXgsEHpMR7gNpn%2Bg%3D`, // 使用有道字典语音api
-            soundCn: `https://lf26-appstore-sign.oceancloudapi.com/ocean-cloud-tos/VolcanoUserVoice/speech_7426720361733062665_bd1c3402-f3c0-428d-9c61-4cc42763d0bc.mp3?lk3s=da27ec82&x-expires=1735575632&x-signature=zdJIqlBw6MrBXgsEHpMR7gNpn%2Bg%3D`, // 使用有道字典语音api
+            soundEN: `https://lf26-appstore-sign.oceancloudapi.com/ocean-cloud-tos/VolcanoUserVoice/speech_7426720361733062665_bd1c3402-f3c0-428d-9c61-4cc42763d0bc.mp3?lk3s=da27ec82&x-expires=1735575632&x-signature=zdJIqlBw6MrBXgsEHpMR7gNpn%2Bg%3D`, // 使用有道字典语音api
+            soundCN: `https://lf26-appstore-sign.oceancloudapi.com/ocean-cloud-tos/VolcanoUserVoice/speech_7426720361733062665_bd1c3402-f3c0-428d-9c61-4cc42763d0bc.mp3?lk3s=da27ec82&x-expires=1735575632&x-signature=zdJIqlBw6MrBXgsEHpMR7gNpn%2Bg%3D`, // 使用有道字典语音api
         },
         {
             en: 'testWord3',
             phonetic: '/test3/',
             cn: '测试单词3',
-            soundEn: `https://lf26-appstore-sign.oceancloudapi.com/ocean-cloud-tos/VolcanoUserVoice/speech_7426720361733062665_bd1c3402-f3c0-428d-9c61-4cc42763d0bc.mp3?lk3s=da27ec82&x-expires=1735575632&x-signature=zdJIqlBw6MrBXgsEHpMR7gNpn%2Bg%3D`, // 使用有道字典语音api
-            soundCn: `https://lf26-appstore-sign.oceancloudapi.com/ocean-cloud-tos/VolcanoUserVoice/speech_7426720361733062665_bd1c3402-f3c0-428d-9c61-4cc42763d0bc.mp3?lk3s=da27ec82&x-expires=1735575632&x-signature=zdJIqlBw6MrBXgsEHpMR7gNpn%2Bg%3D`, // 使用有道字典语音api
+            soundEN: `https://lf26-appstore-sign.oceancloudapi.com/ocean-cloud-tos/VolcanoUserVoice/speech_7426720361733062665_bd1c3402-f3c0-428d-9c61-4cc42763d0bc.mp3?lk3s=da27ec82&x-expires=1735575632&x-signature=zdJIqlBw6MrBXgsEHpMR7gNpn%2Bg%3D`, // 使用有道字典语音api
+            soundCN: `https://lf26-appstore-sign.oceancloudapi.com/ocean-cloud-tos/VolcanoUserVoice/speech_7426720361733062665_bd1c3402-f3c0-428d-9c61-4cc42763d0bc.mp3?lk3s=da27ec82&x-expires=1735575632&x-signature=zdJIqlBw6MrBXgsEHpMR7gNpn%2Bg%3D`, // 使用有道字典语音api
         },
         {
              en: 'testWord4',
             phonetic: '/test4/',
             cn: '测试单词4',
-            soundEn: `https://lf26-appstore-sign.oceancloudapi.com/ocean-cloud-tos/VolcanoUserVoice/speech_7426720361733062665_bd1c3402-f3c0-428d-9c61-4cc42763d0bc.mp3?lk3s=da27ec82&x-expires=1735575632&x-signature=zdJIqlBw6MrBXgsEHpMR7gNpn%2Bg%3D`, // 使用有道字典语音api
-            soundCn: `https://lf26-appstore-sign.oceancloudapi.com/ocean-cloud-tos/VolcanoUserVoice/speech_7426720361733062665_bd1c3402-f3c0-428d-9c61-4cc42763d0bc.mp3?lk3s=da27ec82&x-expires=1735575632&x-signature=zdJIqlBw6MrBXgsEHpMR7gNpn%2Bg%3D`, // 使用有道字典语音api
+            soundEN: `https://lf26-appstore-sign.oceancloudapi.com/ocean-cloud-tos/VolcanoUserVoice/speech_7426720361733062665_bd1c3402-f3c0-428d-9c61-4cc42763d0bc.mp3?lk3s=da27ec82&x-expires=1735575632&x-signature=zdJIqlBw6MrBXgsEHpMR7gNpn%2Bg%3D`, // 使用有道字典语音api
+            soundCN: `https://lf26-appstore-sign.oceancloudapi.com/ocean-cloud-tos/VolcanoUserVoice/speech_7426720361733062665_bd1c3402-f3c0-428d-9c61-4cc42763d0bc.mp3?lk3s=da27ec82&x-expires=1735575632&x-signature=zdJIqlBw6MrBXgsEHpMR7gNpn%2Bg%3D`, // 使用有道字典语音api
         },
          {
             en: 'testWord5',
             phonetic: '/test5/',
             cn: '测试单词5',
-            soundEn: `https://lf26-appstore-sign.oceancloudapi.com/ocean-cloud-tos/VolcanoUserVoice/speech_7426720361733062665_bd1c3402-f3c0-428d-9c61-4cc42763d0bc.mp3?lk3s=da27ec82&x-expires=1735575632&x-signature=zdJIqlBw6MrBXgsEHpMR7gNpn%2Bg%3D`, // 使用有道字典语音api
-            soundCn: `https://lf26-appstore-sign.oceancloudapi.com/ocean-cloud-tos/VolcanoUserVoice/speech_7426720361733062665_bd1c3402-f3c0-428d-9c61-4cc42763d0bc.mp3?lk3s=da27ec82&x-expires=1735575632&x-signature=zdJIqlBw6MrBXgsEHpMR7gNpn%2Bg%3D`, // 使用有道字典语音api
+            soundEN: `https://lf26-appstore-sign.oceancloudapi.com/ocean-cloud-tos/VolcanoUserVoice/speech_7426720361733062665_bd1c3402-f3c0-428d-9c61-4cc42763d0bc.mp3?lk3s=da27ec82&x-expires=1735575632&x-signature=zdJIqlBw6MrBXgsEHpMR7gNpn%2Bg%3D`, // 使用有道字典语音api
+            soundCN: `https://lf26-appstore-sign.oceancloudapi.com/ocean-cloud-tos/VolcanoUserVoice/speech_7426720361733062665_bd1c3402-f3c0-428d-9c61-4cc42763d0bc.mp3?lk3s=da27ec82&x-expires=1735575632&x-signature=zdJIqlBw6MrBXgsEHpMR7gNpn%2Bg%3D`, // 使用有道字典语音api
         },
          {
             en: 'testWord6',
             phonetic: '/test6/',
             cn: '测试单词6',
-            soundEn: `https://lf26-appstore-sign.oceancloudapi.com/ocean-cloud-tos/VolcanoUserVoice/speech_7426720361733062665_bd1c3402-f3c0-428d-9c61-4cc42763d0bc.mp3?lk3s=da27ec82&x-expires=1735575632&x-signature=zdJIqlBw6MrBXgsEHpMR7gNpn%2Bg%3D`, // 使用有道字典语音api
-            soundCn: `https://lf26-appstore-sign.oceancloudapi.com/ocean-cloud-tos/VolcanoUserVoice/speech_7426720361733062665_bd1c3402-f3c0-428d-9c61-4cc42763d0bc.mp3?lk3s=da27ec82&x-expires=1735575632&x-signature=zdJIqlBw6MrBXgsEHpMR7gNpn%2Bg%3D`, // 使用有道字典语音api
+            soundEN: `https://lf26-appstore-sign.oceancloudapi.com/ocean-cloud-tos/VolcanoUserVoice/speech_7426720361733062665_bd1c3402-f3c0-428d-9c61-4cc42763d0bc.mp3?lk3s=da27ec82&x-expires=1735575632&x-signature=zdJIqlBw6MrBXgsEHpMR7gNpn%2Bg%3D`, // 使用有道字典语音api
+            soundCN: `https://lf26-appstore-sign.oceancloudapi.com/ocean-cloud-tos/VolcanoUserVoice/speech_7426720361733062665_bd1c3402-f3c0-428d-9c61-4cc42763d0bc.mp3?lk3s=da27ec82&x-expires=1735575632&x-signature=zdJIqlBw6MrBXgsEHpMR7gNpn%2Bg%3D`, // 使用有道字典语音api
         },
     ],
   };  
