@@ -9,7 +9,7 @@ services:
       - .:/app  # 将当前目录挂载到容器的/app目录
       - /app/node_modules  # 防止本地node_modules覆盖容器内的
     ports:
-      - "3001:3000"  # 暴露服务端口
+      - "3001:9000"  # 暴露服务端口
     environment:
       - NODE_ENV=development
       - ACCOUNT_ID=${ACCOUNT_ID}
