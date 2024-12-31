@@ -2,12 +2,10 @@
   "name": "remotion-renderer-server-fc",
   "version": "1.0.0",
   "description": "my remotion renderer server deployed on alibaba cloud function compute",
-  "main": "dist/app.js",
+  "main": "app.js",
   "scripts": {
-    "build": "tsc",
-    "start": "node dist/app.js",
-    "dev": "nodemon app.js",
-    "vercel-build": "npm run build"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "dependencies": {
     "@remotion/bundler": "4.0.243",
