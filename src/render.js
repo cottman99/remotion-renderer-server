@@ -6,8 +6,8 @@ const OSS = require('ali-oss');
 
 const ossClient = new OSS({
   region: process.env.OSS_REGION,
-  accessKeyId: process.env.accessKeyID,
-  accessKeySecret: process.accessKeySecret,
+  accessKeyId: process.env.ACCESS_KEY_ID,
+  accessKeySecret: process.env.ACCESS_KEY_SECRET,
   bucket: process.env.OSS_BUCKET
 });
 
