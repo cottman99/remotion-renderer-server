@@ -17,9 +17,9 @@ const isUrl = (path: string) => {
   };
 
 export const getAudioSource = (path: string) => {
-      if (isUrl(path)) {
+    if (path.startsWith('http://') || path.startsWith('https://')) {
         return path;
-      } else {
+    } else {
         return staticFile(path);
-      }
-  }
+    }
+}
