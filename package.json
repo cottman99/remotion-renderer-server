@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc",
     "start": "node app.js",
-    "dev": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "vercel-build": "npm run build"
   },
   "dependencies": {
     "@remotion/bundler": "4.0.243",
