@@ -64,6 +64,7 @@ async function render({ enterpoint, compositionId, inputProps, outputFormat }) {
     log(`|-- Input props: ${JSON.stringify(inputProps)}`); 
 
     await renderMedia({
+      browserExecutable: "/mnt/chrome-headless-shell/linux64/chrome-headless-shell-linux64/chrome-headless-shell",
       composition,
       codec: 'h264',
       outputLocation: outputFile,

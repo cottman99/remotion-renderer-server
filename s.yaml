@@ -18,7 +18,7 @@ services:
           ACCESS_KEY_ID: LTAI5tNNkGEpCFZjv6k9ACj6
           ACCESS_KEY_SECRET: DpPNZXLE1YZDeZz28YdKNECkB3Rc7Y
           PATH: >-
-            /opt/nodejs18/bin:/usr/local/bin/apache-maven/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/ruby/bin:/opt/bin:/code:/code/bin
+            /opt/nodejs18/bin:/usr/local/bin/apache-maven/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/ruby/bin:/opt/bin:/code:/code/bin:/opt/bin/ffmpeg
           NODE_PATH: /opt/nodejs/node_modules
           LD_LIBRARY_PATH: >-
             /code:/code/lib:/usr/local/lib:/opt/lib:/opt/php8.1/lib:/opt/php8.0/lib:/opt/php7.2/lib
