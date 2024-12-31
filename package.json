@@ -9,7 +9,6 @@
     "dev": "nodemon app.js"
   },
   "dependencies": {
-    "@remotion/google-fonts": "4.0.243",
     "@remotion/bundler": "4.0.243",
     "@remotion/renderer": "4.0.243",
     "@remotion/zod-types": "4.0.243",

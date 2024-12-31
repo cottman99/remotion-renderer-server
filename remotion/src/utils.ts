@@ -1,6 +1,4 @@
 import { staticFile } from 'remotion';
-import { loadFont } from "@remotion/google-fonts/TitanOne";
-const { fontFamily } = loadFont(); // "Titan One"
 
 
 export const VIDEO_WIDTH = 1080;
