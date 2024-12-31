@@ -13,6 +13,8 @@ services:
         description: Initialize
         runtime: custom.debian10
         environmentVariables:
+          OSS_REGION: oss-cn-hangzhou
+          OSS_BUCKET: my-remotion-video
           PATH: >-
             /opt/nodejs18/bin:/usr/local/bin/apache-maven/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/ruby/bin:/opt/bin:/code:/code/bin
           NODE_PATH: /opt/nodejs/node_modules
