@@ -3,7 +3,7 @@ const { render } = require('./src/render'); // 确保路径正确
 //const cors = require('cors'); // 可选，使用 CORS 处理允许跨域请求
 
 const app = express();
-const PORT = process.env.PORT || 9000;
+const PORT = process.env.PORT || 3000;
 
 // 中间件
 app.use(express.json()); // 解析 JSON 请求体
